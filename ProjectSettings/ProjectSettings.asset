@@ -155,7 +155,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.StudyCompany.BountyBall
-    Standalone: com.Company.ProductName
+    Standalone: com.StudyCompany.BountyBall
   buildNumber:
     Standalone: 0
     iPhone: 0

@@ -81,19 +81,6 @@ public class GameManager : MonoBehaviour
             playerLogic.ButtonSize[1].value = PlayerPrefs.GetFloat("SSize");
             SSize();
         }
-        Invoke("CompleteShock", 10f);
-    }
-
-    private void CompleteShock() {
-        if (GooglePlayServiceManager.Instance.isAuthenticated)
-        {
-            GooglePlayServiceManager.Instance.Completeshock_and_awe();
-        }
-    }
-
-    private void Awake()
-    {
-        GooglePlayServiceManager.Instance.Login();
     }
 
     private void OnApplicationPause(bool pause)
